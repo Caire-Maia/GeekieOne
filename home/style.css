@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+
+*{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+
+
+
+
+header{
+    display: flex;
+    position: fixed;
+    background-color: mediumslateblue;
+    justify-content: center;
+    width: 100%;
+    color: aliceblue;
+    font-size: 18px;
+}
+
+i{
+    margin-right: 10px;
+
+}
+
+
+
+.container{
+    display: flex;
+    font-size: 18px;
+    height: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+    justify-content: space-between;
+    text-align: justify;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+
+.container2{
+    display: flex;
+    margin-right: 35%;
+}
+
+
+.container2 img{
+    justify-content: space-between;
+    text-align: center;
+}
+
+.container3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 10px;
+}
+
+.container3 p{
+    font-size: 13px;
+    font-weight: 900;
+    text-align: right;
+}
+
+#holder-menu{
+    display: flex;
+    align-items: center;
+}
+
+
+#holder-menu img{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    border: 2px solid white;
+    margin-left: 10px;
+}
+
+
+.container:active{
+    background-color: rgba(187, 176, 250, 0.658);
+    cursor: pointer;
+    border-bottom: 7px white solid;
+}
+
+.container::after{
+    border-bottom: 7px white solid;
+}
+
+
+
+.container:hover{
+    cursor: pointer;
+}
+
+
+.atividades-holder{
+    float: left;
+    margin-top: 200px;
+    margin-left: 15%;
+    display: block;
+    flex-direction: column;
+}
+
+.atividade-holder2{
+    display: flex;
+}
+
+.dia{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.dia2{
+    font-size: 25px;
+    text-align: center;
+}
+.dia3{
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+.atividade{
+    display: flexbox;
+    flex-direction: row;
+    border: solid 1px rgb(201, 201, 201);
+    padding: 15px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    width: 590px;
+
+}
+
+.atividade p{
+    font-size: 14px;
+}
+
+.plano{
+    display: flexbox;
+    margin-top: 200px;
+    float: right;
+    border: solid 1px rgb(201, 201, 201);
+    padding: 80px;
+    margin-right: 15%;
+    height: 150px;
+    border-radius: 5px;
+    height: max-content;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.mensagem p{
+    margin-top: 30px;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.plano .mensagem{
+    color: black;
+}
+
+.botao button{
+    background-color: mediumslateblue;
+    text-align: center;
+    margin-top: 70px;
+    padding: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 190px;
+    border-style: none;
+    border-radius: 4px;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.botao button:hover{
+    background-color: rgba(124, 104, 238, 0.658);
+}
+
+.botao{
+    justify-content: center;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1366px){
+    
+    header{
+        display: flex;
+        position: fixed;
+        background-color: mediumslateblue;
+        justify-content: center;
+        width: 100%;
+        color: aliceblue;
+        font-size: 18px;
+    }
+    
+    
+    
+    
+    
+    .container{
+        font-size: 18px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-right: 25px;
+        padding-left: 25px;
+        justify-content: space-between;
+        text-align: justify;
+    }
+
+    .container:hover{
+        transition: 0.5s;
+        background-color: rgb(159, 143, 253);
+        cursor: pointer;
+    }
+    
+    
+    .container2{
+        display: flex;
+        margin-right: 10%;
+    }
+    
+    #holder-menu{
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+
+   
+
+
+
+
+    .atividades-holder{
+        float: left;
+        margin-top: 200px;
+        margin-left: 7%;
+        display: block;
+        flex-direction: column;
+    }
+    
+    .dia{
+        display: inline-flexbox;
+        flex-direction: column;
+        float: left;
+    }
+
+
+
+    
+    .atividade{
+        display: flexbox;
+        flex-direction: row;
+        border: 1px solid black;
+        padding: 15px;
+        margin-bottom: 50px;
+        border-radius: 5px;
+        width: 620px;
+    }
+    
+    .atividade p{
+        font-size: 14px;
+    }
+    
+    .plano{
+        display: flexbox;
+        margin-top: 200px;
+        float: right;
+        border: solid 1px black;
+        padding: 80px;
+        padding-top: 50px;
+        margin-right: 7%;
+        height: 150px;
+        border-radius: 5px;
+        height: max-content;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+    
+    .mensagem p{
+        margin-top: 30px;
+        color: black;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .plano .mensagem{
+        color: black;
+    }
+    
+    .botao button{
+        background-color: mediumslateblue;
+        text-align: center;
+        margin-top: 70px;
+        padding: 10px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        width: 190px;
+        border-style: none;
+        border-radius: 4px;
+        font-weight: bold;
+        color: aliceblue;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    
+    .botao button:hover{
+        background-color: rgba(124, 104, 238, 0.712);
+    }
+    
+    .botao{
+        justify-content: center;
+        text-align: center;
+    }
+    
+    
+    
+}
